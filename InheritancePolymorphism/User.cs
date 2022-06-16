@@ -13,13 +13,10 @@ namespace UserNamespace
 
         public User(String id, String pass)
         {
-            user_id = "user";
-            user_password = "userpass";
+
         }
         public bool verifyLogin(String id, String pass)
         {
-            id = user_id;
-            pass = user_password;
 
             if (id.Equals(user_id) && pass.Equals(user_password)) {
                 return true;

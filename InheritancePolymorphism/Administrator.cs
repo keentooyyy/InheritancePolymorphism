@@ -12,15 +12,16 @@ namespace UserNamespace
 
         public Administrator(String name, String id, String pass) :base(id, pass)
         {
-
+            
         }
+        
         public void updatePassword(String newPassword)
         {
-
+            base.UpdatePassword(newPassword);
         }
         public void updateAdminName(String name)
         {
-
+            admin_name = name;
         }
     }
 }

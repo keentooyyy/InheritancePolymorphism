@@ -10,10 +10,6 @@ namespace UserNamespace
     {
         static void Main(string[] args)
         {
-            User user = new User("user", "userpass");
-
-
-
             Console.ReadLine();
         }
     }
